@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            
+     body{
+        background-color: darkslategray;
+     }
+     @media only screen and (max-width:1080px){
+        body{
+            background-color:darkslategray;
+        }
+    }
+    header{
+        text-align: right;
+    }
+
+    .nav-links {
+        font-size: smaller;
+        color: deeppink;
+        margin-left: auto;
+    }
+    .nav-links a {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .nav-links a:hover {
+        color: orange;
+    }
+
+    hr{
+        height: 5px;
+        background-color: orangered;
+        border: 0cap;
+        margin: auto;
+        align-self: baseline;
+    }
+    pp {
+        font-family: tahoma;
+        color: gold;
+        font-size: xx-large;
+        font-style: oblique;
+    }
+    h4 {
+        text-align: center;
+        block-size: 5px;
+        inset-block: 30px;
+    
+    }
+    button{
+        border: 0px;
+        color: white;
+        background-color: orangered;
+        font-size: small;
+        block-size: 50px;
+        display: inline;
+        text-decoration: none;
+        text-align: center;
+        width: 100px;
+    }
+    a{
+        inset-area: 80px;
+        font-family: arial;
+        padding: 10px;
+    }
+    p{
+        font-size: xx-large;
+        font-family: arial;
+        justify-content: space-between;
+    }
+    h5{
+        font-size: x-large;
+        font-family: arial;
+    }
+
+    form{
+        align-items: center;
+        text-align: right;
+    }
+ 
+    .link-box { 
+            display: inline-block; 
+            justify-content: space-around;
+            padding: 20px; 
+            border: 2px solid transparent;  
+            border-radius: 2px;  
+            transition: background-color 0.3s, border-color 0.3s;  
+        }  
+
+        .link-box:hover{  
+            background-color: orangered;
+            border-color: #ffffff;
+            border: 0px;
+        }  
+
+        .link-box a {  
+            text-decoration: none;  
+            color: #000;
+            margin: 5px;
+            width: auto;
+            word-spacing: normal;
+            text-transform: capitalize;
+
+        }  
+
+        .link-box:hover a {  
+            color: #ffffff;
+        }
+        h5{
+            font-size: medium;
+            text-decoration: solid;
+        }
+        hr{
+            width: initial;
+            height: 3px;
+        }
+        label{
+            text-align: right;
+            border-inline-color: 60px;
+            padding: auto;
+            font-family: Arial; 
+            font-size: small;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            box-sizing:border-box ;
+        }
+
+        input[type="text"]{
+            padding-bottom: 2px;
+            font-size: large;
+            border-radius: 3px;
+        }
+        .flexContainer > div{
+            background-color: rgb(106, 104, 104);
+            height: 25px;
+            align-content: center;
+            padding: 10px;
+            width: 400px;
+            font-family: arial;
+        }
+        .Comment-box{
+            padding-right: 10000px;
+        }
+     
+    </style>
+  
+  <!--
+    <nav>
+        <ul>
+            <li></li>
+        </ul>
+    </nav>
+
+    -->
+
+     <div class="nav-links">
+            <form>
+                <h2><label><button>Currency</button></label><choose type="currency">
+                <button>My Account</button>
+                <button>My Wallet</button>
+                <button>Contact Us</button>
+                <button>Checkout</button>
+            </form>
+
+        </div>
+</head>
+
+
+<pp>Mega Shop</pp>
+
+<form>
+<h4> <label for="searchbox"><input type="text" id="searchbox" placeholder="Search"></label></h4>
+<br>
+</form>
+
+<body>
+
+
+    <hr>
+
+
+    <div class="link-box">
+
+    <a href="Index.html">HOME</a> 
+    <a href="SHOP.HTML">SHOP</a>
+    <a href="BLOG.HTML">BLOG</a>
+    <a href="FAQ.HTML">FAQ</a>
+    <a href="ABOUT US.HTML">ABOUT US</a>
+    <a href="Contact us.html">CONTACT US</a>
+
+</div>
+    
+
+        <p> Login or Create an Account</p>
+        <div class="flexContainer">
+            <div>Registered Customers</div>
+    </div>
+    <br>
+    If you have an account with us, please log in
+    <br><br>
+
+    <label><Email>Email</Email><br><input placeholder="Email" required>
+    <br><br>
+    <label>Password<br><input placeholder="Password" required></label><br><br>
+    <a href="HOME.html"><button type="submit">Log in</button></a><br><br><br>
+    
+    Comment box for suggestions and queries <br><br>
+    
+    <div class="Comment-box">
+        <form action="#">
+            <textarea name="Comment" placeholder="Write here"></textarea><br><hr><br>
+            <button type="Submit" aria-required="true">Submit </button>
+        </form>
+    </div>
+
+</body>
+</html>

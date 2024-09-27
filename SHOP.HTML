@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            
+     body{
+        background-color: darkslategray;
+     }
+     @media only screen and (max-width:1080px){
+        body{
+            background-color:darkslategray;
+        }
+    }
+    header{
+        text-align: right;
+    }
+
+    .nav-links {
+        font-size: smaller;
+        color: deeppink;
+        margin-left: auto;
+    }
+    .nav-links a {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .nav-links a:hover {
+        color: orange;
+    }
+
+    hr{
+        height: 5px;
+        background-color: orangered;
+        border: 0cap;
+        margin: auto;
+        align-self: baseline;
+    }
+    pp {
+        font-family: tahoma;
+        color: gold;
+        font-size: xx-large;
+        font-style: oblique;
+    }
+    h4 {
+        text-align: center;
+        block-size: 5px;
+        inset-block: 30px;
+    
+    }
+    button{
+        border: 0px;
+        color: white;
+        background-color: orangered;
+        font-size: small;
+        block-size: 50px;
+        display: inline;
+        text-decoration: none;
+        text-align: center;
+        width: 100px;
+    }
+    a{
+        inset-area: 80px;
+        font-family: arial;
+        padding: 10px;
+    }
+
+    h5{
+        font-size: x-large;
+        font-family: arial;
+    }
+
+    form1{
+        align-items: center;
+        text-align: right;
+    }
+ 
+    .link-box { 
+            display: inline-block; 
+            justify-content: space-around;
+            padding: 20px; 
+            border: 2px solid transparent;  
+            border-radius: 2px;  
+            transition: background-color 0.3s, border-color 0.3s;  
+        }  
+
+        .link-box:hover{  
+            background-color: orangered;
+            border-color: #ffffff;
+            border: 0px;
+        }  
+
+        .link-box a {  
+            text-decoration: none;  
+            color: #000;
+            margin: 5px;
+            width: auto;
+            word-spacing: normal;
+            text-transform: capitalize;
+
+        }  
+
+        .link-box:hover a {  
+            color: #ffffff;
+        }
+        h5{
+            font-size: medium;
+            text-decoration: solid;
+        }
+        hr{
+            width: initial;
+            height: 3px;
+        }
+        label{
+            text-align: right;
+            border-inline-color: 60px;
+            padding: auto;
+            font-family: Arial; 
+            font-size: smaller;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            
+          
+        }
+
+        input[type="text"]{
+            padding-bottom: 2px;
+            font-size: large;
+            border-radius: 3px;
+        }
+        .flexContainer > div{
+            background-color: rgb(106, 104, 104);
+            height: 25px;
+            align-content: center;
+            padding: 10px;
+        }
+        .Comment-box{
+            padding-right: 6000px;
+            font-family: arial;
+            font-size: small;
+
+        }
+        .left-box {
+            width: 15%;
+            height: 200px;
+            border: 3px dotted deeppink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .right-page{
+            width: 60%;
+            padding-right: 20px;
+        }
+        .content{
+            width: 60%;
+            text-align: left;
+            word-spacing: normal;
+            padding-left: 400px;
+        }
+        .left-siderbar{
+            width: 45%;
+        }
+        .content{
+            width: 10%;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 800px;
+            position: absolute;
+            float: left;
+            height: 1vh;
+
+
+        }
+        .Community-poll{
+            margin-bottom: 20px;
+            padding:15px;
+            border: 3px solid #ccc;
+            background-color: #f9f9f9;
+            border-width: 0px;
+            height: auto;
+            width: 200px;
+        }
+
+        .compare-products{
+            margin-bottom: 20px;
+            padding:15px;
+            border: 3px solid #ccc;
+            background-color: #f9f9f9;
+            border-width: 0px;
+            height: auto;
+            width: 200px;
+        }
+        img{
+            height: 300px;
+            width: 500px;
+            align-content: left;
+            text-align: left;
+        }
+
+     
+    </style>
+  
+  <!--
+    <nav>
+        <ul>
+            <li></li>
+        </ul>
+    </nav>
+
+    -->
+
+     <div class="nav-links">
+            <form1>
+                <h2><label><button>Currency</button></label><choose type="currency">
+                <button>My Account</button>
+                <button>My Wallet</button>
+                <button>Contact Us</button>
+                <button>Checkout</button>
+                <button>Log In</button></h2>
+            </form1>
+
+        </div>
+</head>
+
+
+<pp>Mega Shop</pp>
+
+<form1>
+<h4> <label for="searchbox"><input type="text" id="searchbox" placeholder="Search"></label></h4>
+<br>
+</form1>
+
+<body>
+
+
+    <hr>
+
+
+    <div class="link-box">
+
+       <a href="Index.html">HOME</a> 
+       <a href="Contact us.html">Contact_us</a>
+       <a href="BLOG.HTML">BLOG</a>
+       <a href="FAQ.HTML">FAQ</a>
+       <a href="ABOUT US.HTML">ABOUT US</a>
+
+    </div>
+
+<div class="container">
+    <div class="left-sidebar">
+        <div class="compare-products">
+          <h3>Compare products</h3>
+          <p>you have no items to compare</p>
+        </div>
+
+        <div class="Community-poll">
+           <h2>MAN</h2>
+
+            <form>
+              <input type="radio" >Sweaters <br>
+              <input type="radio" > Tee Shirts <br>
+              <input type="radio">Shirts and Blouces <br>
+              <input type="radio" >Outerwear & Jackets <br>
+              <button type="submit">Select</button>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="content">
+       <img src="Best-Mens-Watches-FI.webp">
+
+</div>
+
+
+
+</body>
+</html>
