@@ -79,7 +79,13 @@
         text-align: right;
     }
  
-    a { 
+.list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    background-color: whitesmoke;
+ }
+    .list a { 
             display: inline-block; 
             justify-content: space-around;
             padding: 20px; 
@@ -88,13 +94,14 @@
             transition: background-color 0.3s, border-color 0.3s;  
         }  
 
-        a:hover{  
-            background-color: ora;
+        .list a:hover {  
+            background-color: orangered;
+            color: #ffffff;
             border-color: #ffffff;
             border: 0px;
         }  
 
-        a {  
+        .list a {  
             text-decoration: none;  
             color: #000;
             margin: 5px;
@@ -102,7 +109,7 @@
             word-spacing: normal;
             text-transform: capitalize;
 
-        }  
+        }    
 
         .link-box:hover a {  
             color: #ffffff;
@@ -189,7 +196,7 @@
 
 
 
-     @media only screen and (min-width:1200px){
+     @media only screen and (max-width:600px){
 
 
 
@@ -265,7 +272,13 @@
         text-align: right;
     }
  
-    a { 
+   .list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    background-color: whitesmoke;
+ }
+    .list a { 
             display: inline-block; 
             justify-content: space-around;
             padding: 20px; 
@@ -274,17 +287,14 @@
             transition: background-color 0.3s, border-color 0.3s;  
         }  
 
-        a:hover{  
-            background-color:orangered;
+        .list a:hover {  
+            background-color: orangered;
+            color: #ffffff;
             border-color: #ffffff;
             border: 0px;
-            width: 90px;
-            height: auto;
-            text-align: center;
-            
         }  
 
-         a {  
+        .list a {  
             text-decoration: none;  
             color: #000;
             margin: 5px;
@@ -417,7 +427,7 @@
     <hr>
 
 
-    <div class="link-box">
+    <ul class="list">
 
 
             <a href="https://Belo001.github.io/Ameatur-Website/Index.html">HOME</a> 
@@ -426,7 +436,7 @@
             <a href="https://Belo001.github.io/Ameatur-Website/ABOUT US.HTML">About_Us</a>
             <a href="https://Belo001.github.io/Ameatur-Website/Contact us.html">CONTACT</a>
 
-    </div>
+    </ul>
     
 
     <div class="container">
