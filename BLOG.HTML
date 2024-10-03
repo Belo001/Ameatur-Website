@@ -238,7 +238,13 @@
         text-align: right;
     }
  
-    .link-box { 
+    .list{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    background-color: whitesmoke;
+ }
+    .list a { 
             display: inline-block; 
             justify-content: space-around;
             padding: 20px; 
@@ -247,13 +253,14 @@
             transition: background-color 0.3s, border-color 0.3s;  
         }  
 
-        .link-box:hover{  
+        .list a:hover {  
             background-color: orangered;
+            color: #ffffff;
             border-color: #ffffff;
             border: 0px;
         }  
 
-        .link-box a {  
+        .list a {  
             text-decoration: none;  
             color: #000;
             margin: 5px;
@@ -262,10 +269,6 @@
             text-transform: capitalize;
 
         }  
-
-        .link-box:hover a {  
-            color: #ffffff;
-        }
         h5{
             font-size: medium;
             text-decoration: solid;
